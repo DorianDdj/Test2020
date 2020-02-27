@@ -9,4 +9,8 @@ public class Partition {
         m_name = name;
         m_tone = tone;
     }
+
+    public String getName() {
+        return m_name;
+    }
 }
