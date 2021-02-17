@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+//Classe mere Musician
 public class Musician {
     String m_name;
     String m_instrument;
@@ -11,9 +12,10 @@ public class Musician {
         m_listPartitions = new ArrayList<>();
     }
 
+    //Enregistrement d'une nouvelle partition
     public void addPartition(Partition partition) {
         m_listPartitions.add(partition);
-
+        //Ajout d'une trace pour la validation
         System.out.println("Add partition '" + partition.getName() + "' to '" + m_name + "'");
     }
 
